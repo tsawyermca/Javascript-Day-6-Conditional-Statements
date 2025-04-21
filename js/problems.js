@@ -69,7 +69,7 @@ if(age >= 65){
 //Problem 4
 
 let hour = Math.floor(Math.random() * 25);
-let minute = Math.floor(Math.random() * 61);
+let minute = Math.floor(Math.random() * 60);
 
 if(minute < 10){
     minute = ("0" + minute);
